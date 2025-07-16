@@ -1,0 +1,42 @@
+.hero {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;   /* Absolutely position overlay */
+  top: 0;              /* Cover top */
+  left: 0;             /* Cover left */
+  right: 0;            /* Cover right */
+  bottom: 0;           /* Cover bottom */
+  background-color: rgba(114, 108, 108, 0.4);
+        /* Center content vertically and horizontally */
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;       /* Adjust padding as needed */
+  color: white;        /* Text color */
+  font-size: 1.5rem;
+  font-family: 'Georgia', serif;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.overlay h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.overlay p {
+  font-style: italic;
+  font-size: 1.5rem;
+}
