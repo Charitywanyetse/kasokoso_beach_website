@@ -1,9 +1,9 @@
 import React from 'react';
 import './Offers.css';
-import garden from '../assets/grounds.jpg';
-import pool from '../assets/pool.jpg';
-import conference from '../assets/conferenca hall.jpg';
-import restaurant from '../assets/restaurant.jpg';
+import garden from '../assets/garden.jpg';
+import pool from '../assets/swimming pool.jpg';
+import conference from '../assets/conference halls.jpg';
+import restaurant from '../assets/restaurant1.jpg';
 
 const Offers = () => {
   const services = [

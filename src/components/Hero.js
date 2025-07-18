@@ -1,9 +1,7 @@
 
 import React from 'react';
 import './Hero.css';
-import backgroundImg from '../assets/hero.jpg'; // Replace with your actual path
-import { Link } from 'react-router-dom';
-
+import backgroundImg from '../assets/heros.jpg'; 
 
 const Hero = () => {
   return (

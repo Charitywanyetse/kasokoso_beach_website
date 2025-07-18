@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -19,7 +20,10 @@ const Footer = () => {
         </div>
 
         <div className="footer-column right">
-          <button className="footer-login-btn">Login</button>
+           <Link to="/Login">
+ <button className="footer-login-btn">Login</button>      
+           </Link>
+    
         </div>
       </div>
     </footer>

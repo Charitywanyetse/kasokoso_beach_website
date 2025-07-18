@@ -1,0 +1,59 @@
+
+
+.gallery-page {
+  background-color: #f4f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery-banner {
+  background-image: url('../assets/Gallery.jpg'); /* Replace with actual banner */
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.gallery-card-1 {
+  max-width: 400px;
+  margin: 40px;
+  margin-left: 400px;
+  padding: 30px;
+  background-color: #fffccc;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #d47b33;
+  margin-right: 20px;
+}
+
+.gallery-card-1 img {
+  width: 500px;
+  height: 400px;
+  max-width:360px;
+  max-height: 300px;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  margin-bottom: 00px;
+  border-radius: 10px;
+}
+
+.gallery-card h2 {
+  color: #4c2b1b;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-card-1 p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  align-items: center;
+}

@@ -1,0 +1,52 @@
+/* Existing styles remain... add these below */
+
+/* Container for the whole page */
+.services-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Top banner image */
+.top-banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+/* Section for each service */
+.service-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 10%;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 30px;
+}
+
+/* Left-side service image */
+.service-image {
+  position: relative;
+  width: 45%;
+}
+
+.service-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Price tag over image */
+.price-tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

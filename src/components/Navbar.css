@@ -11,15 +11,15 @@
 
 .logo-container img {
   
-  width: 150px;  /* Adjust width as needed */
-  height: auto;  /* Maintain aspect ratio */
+  width: 100px;  /* Adjust width as needed */
+  height: 100px;
 
 }
 
 
 .nav-links {
   display: flex;
-  gap: 25px;
+  gap: 140px;
 }
 
 .nav-links li {
@@ -29,12 +29,14 @@
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.1rem;
+  font-weight: 450;
+  font-size: 12px;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: orangered;
+  height: 60px;
 }
 
 .explore-button {

@@ -1,0 +1,103 @@
+
+/* === LOGIN FORM STYLES (Free Layout) === */
+
+.login-header {
+  font-size: 26px;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 55px;
+  text-align: center;
+  color: #4c2b1b;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-form input {
+  display: block;
+  width: 600px;
+  color: #4c2b1b;
+  padding: 12px 14px;
+  margin-bottom: 55px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 55px;
+  width: 1050px;
+  height: 35px;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: rgb(214, 208, 208);
+  text-align: center;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  
+  outline: none;
+}
+
+.login-button {
+  padding: 12px 24px;
+  background-color: #7d4b33;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  margin-top: 0px;
+  width: 180px;
+  height: 55px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #7d4b33;
+}
+
+.signup-text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.p {
+  margin-top: 30px;
+  color: #0e0d0d;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.signup-button {
+  background-color: #fffccc;
+  color: rgb(20, 19, 19);
+  border: 3px solid#7d4b33;
+  padding: 6px 14px;
+  border-radius: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+    font-size: 20px;
+  font-weight: bold;
+  width: 230px;
+  height: 60px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #fffccc;
+}

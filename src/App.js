@@ -8,9 +8,10 @@ import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery'
 import Services  from './components/Services';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import UserProfile from './components/UserProfile';
 
-// import About from './components/About'; // example other page
-// import Contact from './components/Contact'; // example other page
 
 
 const Home = () => (
@@ -29,6 +30,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/Signup"element={<Signup/>}/>
+       <Route path="/profile" element={<UserProfile />} />
+        
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
          */}

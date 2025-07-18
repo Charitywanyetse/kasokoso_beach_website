@@ -1,0 +1,64 @@
+
+
+.profile-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.search-section {
+  margin-top: 1rem;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 60%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff9cc;
+  margin-bottom: 1rem;
+}
+
+.profile-buttons button {
+  background-color: #653D2F;
+  color: white;
+  padding: 8px 15px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.profile-card {
+  width: 200px;
+  height: 200px;
+  background-color: #fff9cc;
+  border: 3px solid #653D2F;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 2rem;
+  color: gray;
+}
+
