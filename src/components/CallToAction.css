@@ -23,6 +23,8 @@
   color: rgb(26, 25, 25);
   background-color: #fffccc;
   border: 1px solid #7d4b33;
+  height: 60px;
+  width: 300px;
 }
 
 .cta-btn:hover {

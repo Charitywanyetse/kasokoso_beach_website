@@ -1,62 +1,71 @@
-.register-container {
+/* General Page Style */
+.register-container,
+.booking-container {
   background-color: #f9fdff;
   font-family: sans-serif;
   padding: 0;
-  margin: 0;
+  margin: 10;
   min-height: 100vh;
   text-align: center;
+  color: black;
+
 }
 
+/* Header Style */
 .register-header {
   background-color: #75412c;
   color: white;
   font-size: 3rem;
   font-weight: bold;
   padding: 30px;
-  border-radius: 00px ;
   margin-top: 20px;
+  border-radius: 8px;
 }
 
-/* Form */
-.register-form {
+/* Form Styling */
+.register-form,
+.booking-form {
   margin: 30px auto;
-  max-width: 600px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 30px;
   padding: 0 20px;
+  margin-left: 300px;
 }
 
-.register-form input {
+.register-form input,
+.booking-form input {
   padding: 15px;
-  font-size: 16px;
-  border: none;
+  font-size: 15px;
+  border: 1px solid #8c5a3c;
   background-color: #fffacb;
-  color: #432818;
+  color: rgb(4, 5, 5);
+
   font-weight: bold;
   text-align: center;
-  border-radius: 2px;
-  border: 1px solid  #8c5a3c;
+  border-radius: 5px;
+  height: 30px;
 }
 
-.register-button {
+/* Button Styling */
+.register-button,
+.book-button,
+button {
   background-color: #8c5a3c;
   color: white;
-  border: none;
+  border: 2px solid black;
   padding: 12px 24px;
   border-radius: 15px;
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
-  width: 150px;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-.p {
-    margin-bottom: 50px;
+  width: 160px;
+  height: 60px;
+  margin: 10px auto;
 }
 
-/* Footer */
+/* Footer (if needed) */
 .register-footer {
   background-color: #75412c;
   color: white;
@@ -75,15 +84,14 @@
   margin: 10px;
 }
 
+/* Extra Buttons */
 .home-button {
   background-color: #fffacb;
   color: #75412c;
   border: none;
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
-}
-.p{
-    margin-bottom: 90px;
+  
 }

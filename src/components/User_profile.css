@@ -18,6 +18,7 @@
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
+  margin-right: 100px;
 }
 
 .search-section {
@@ -26,7 +27,7 @@
 
 .search-bar {
   padding: 10px;
-  width: 60%;
+  width: 50%;
   border-radius: 20px;
   border: 1px solid #ccc;
   background-color: #fff9cc;
@@ -40,12 +41,13 @@
   margin: 0 5px;
   border: none;
   cursor: pointer;
+  margin-left: 70px;
 }
 
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   margin-top: 2rem;
 }
 
@@ -60,5 +62,6 @@
 footer {
   margin-top: 2rem;
   color: gray;
+  margin-top: 40px;
 }
 

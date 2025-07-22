@@ -9,7 +9,7 @@
   background-image: url('../assets/Gallery.jpg'); /* Replace with actual banner */
   background-size: cover;
   background-position: center;
-  height: 350px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +49,7 @@
   margin-bottom: 10px;
   align-items: center;
   justify-content: center;
+  margin-left: 500px;
 }
 
 .gallery-card-1 p {

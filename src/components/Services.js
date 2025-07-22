@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import './Services.css';
+import { useNavigate } from 'react-router-dom';
 
 import bannerImg from '../assets/1000026725.jpg';
 import service1Img from '../assets/1000026727.jpg';
@@ -40,6 +41,7 @@ const services = [
 ];
 
 const Services = () => {
+  const navigate = useNavigate();
   const [current, setCurrent] = useState(0);
 
   const nextService = () => {
@@ -48,6 +50,14 @@ const Services = () => {
 
   const prevService = () => {
     setCurrent((prev) => (prev - 1 + services.length) % services.length);
+  };
+
+  const goToGallery = () => {
+    navigate('/gallery');
+  };
+
+  const goToBook = () => {
+    navigate('/booking'); // corrected route
   };
 
   const currentService = services[current];
@@ -70,8 +80,12 @@ const Services = () => {
           <h2>{currentService.title}</h2>
           <p>{currentService.description}</p>
           <div className="buttons">
-            <button className="gallery-button">See Gallery</button>
-            <button className="book-button">Book Now</button>
+            <button className="gallery-button" onClick={goToGallery}>
+              See Gallery
+            </button>
+            <button className="book-button" onClick={goToBook}>
+              Book Now
+            </button>
           </div>
         </div>
 
@@ -84,4 +98,3 @@ const Services = () => {
 };
 
 export default Services;
-

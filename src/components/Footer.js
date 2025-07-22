@@ -19,6 +19,12 @@ const Footer = () => {
           <p>Terms of Use</p>
         </div>
 
+        <div className="footer-column">
+          <h4>Home</h4>
+          <p>ContactUs</p>
+          <p>Gallery</p>
+        </div>
+
         <div className="footer-column right">
            <Link to="/Login">
  <button className="footer-login-btn">Login</button>      

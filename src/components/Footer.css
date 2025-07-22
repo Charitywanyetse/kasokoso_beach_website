@@ -33,7 +33,7 @@
   color: #6a3b25;
   padding: 12px 28px;
   border-radius: 30px;
-  border: none;
+  border: 1PX solid black;
   font-size: 1.1rem;
   cursor: pointer;
   margin-top: 20px;

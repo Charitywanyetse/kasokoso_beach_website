@@ -1,52 +1,128 @@
-/* Existing styles remain... add these below */
+/* Services.css */
 
-/* Container for the whole page */
 .services-page {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff9f5;
+  padding-bottom: 40px;
 }
 
-/* Top banner image */
+/* Top Banner Image */
 .top-banner {
   width: 100%;
-  height: 300px;
+  height: 600px;
   object-fit: cover;
-  margin-bottom: 40px;
+  position: relative;
 }
 
-/* Section for each service */
+/* Service Section Layout */
 .service-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  padding: 0 10%;
-  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1200px;
+  gap: 2rem;
+  padding: 0 20px;
   position: relative;
-  gap: 30px;
 }
 
-/* Left-side service image */
+/* Navigation Arrows */
+.arrow {
+  font-size: 2.5rem;
+  color: #6b3e26;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+.left-arrow {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-arrow {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Image + Price Tag */
 .service-image {
+  flex: 1;
   position: relative;
-  width: 45%;
 }
 
 .service-image img {
   width: 100%;
+  height: auto;
+  max-width: 500px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Price tag over image */
 .price-tag {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background-color: #007bff;
+  bottom: 15px;
+  left: 100px;
+  background-color: #6b3e26;
   color: white;
-  padding: 8px 14px;
-  border-radius: 6px;
+  padding: 10px 15px;
+  border-radius: 8px;
   font-weight: bold;
   font-size: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border:1px solid #fff9f5;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text Content */
+.service-details {
+  flex: 1;
+  text-align: left;
+  max-width: 600px;
+}
+
+.service-details h2 {
+  font-size: 2rem;
+  color: #6b3e26;
+  margin-bottom: 10px;
+}
+
+.service-details p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.gallery-button,
+.book-button {
+  background-color: #6b3e26;
+  color: white;
+  border: none;
+  border: 2px solid rgb(10, 6, 6);
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gallery-button:hover,
+.book-button:hover {
+  background-color: #8b5c3e;
 }

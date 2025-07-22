@@ -12,14 +12,14 @@
 .logo-container img {
   
   width: 100px;  /* Adjust width as needed */
-  height: 100px;
+  height: 90px;
 
 }
 
 
 .nav-links {
   display: flex;
-  gap: 140px;
+  gap: 150px;
 }
 
 .nav-links li {
@@ -29,8 +29,8 @@
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 450;
-  font-size: 12px;
+  font-weight: 3 rem;
+  font-size: 17px;
 }
 
 .nav-links a:hover {
