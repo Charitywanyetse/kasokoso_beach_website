@@ -16,7 +16,7 @@ const Booking = () => {
   // const [date, setDate] = useState('');
   const [StartTime, setStartTime] = useState('');
   const [EndTime, setEndTime] = useState('');
-  const [TotalPrice, setTotalPrice] = useState('');
+  const [NumberOfPeople, setNumberOfPeople] = useState('');
   const [BookingDate, setBookingDate] = useState('');
 
   const handleBooking = (e) => {
@@ -28,7 +28,7 @@ const Booking = () => {
     // localStorage.setItem('bookingDate', date);
     localStorage.setItem('bookingStartTime', StartTime);
     localStorage.setItem('bookingEndTime', EndTime);
-    localStorage.setItem('bookingTotalPrice', TotalPrice);
+    localStorage.setItem('bookingNumberOfPeople', NumberOfPeople);
     localStorage.setItem('bookingBookingDate', BookingDate);
 
     alert('Booking successful!');
@@ -84,10 +84,10 @@ const Booking = () => {
 
         <input
           type="number"
-          placeholder="Total Price"
+          placeholder="Number Of People"
           required
-          value={TotalPrice}
-          onChange={(e) => setTotalPrice(e.target.value)}
+          value={NumberOfPeople}
+          onChange={(e) => setNumberOfPeople(e.target.value)}
         />
 
         <input

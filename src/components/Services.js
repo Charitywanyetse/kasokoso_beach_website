@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Services.css';
 import { useNavigate } from 'react-router-dom';
 
-import bannerImg from '../assets/1000026725.jpg';
+// import bannerImg from '../assets/1000026725.jpg';
 import service1Img from '../assets/1000026727.jpg';
 import service2Img from '../assets/1000026733.jpg';
 import service3Img from '../assets/resta.jpg';
@@ -64,7 +64,10 @@ const Services = () => {
 
   return (
     <div className="services-page">
-      <img src={bannerImg} alt="Top Banner" className="top-banner" />
+       <section className="service-hero">
+        <h1>SERVICES</h1>
+      </section>
+      {/* <img src={bannerImg} alt="Top Banner" className="top-banner" /> */}
 
       <div className="service-section">
         <button className="arrow left-arrow" onClick={prevService}>
@@ -83,6 +86,7 @@ const Services = () => {
             <button className="gallery-button" onClick={goToGallery}>
               See Gallery
             </button>
+            <br></br>
             <button className="book-button" onClick={goToBook}>
               Book Now
             </button>
@@ -93,6 +97,10 @@ const Services = () => {
           &#8594;
         </button>
       </div>
+
+      <br></br>
+
+        <p>Kasokoso Beach®</p>
     </div>
   );
 };

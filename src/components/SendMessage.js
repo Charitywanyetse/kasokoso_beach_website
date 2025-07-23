@@ -59,11 +59,15 @@ const SendMessage = () => {
           required
         />
 
-        <button type="submit">Send Message</button>
+        <button type="submit">Send a  Message</button>
       </form>
+      <br></br>
+        <p>Kasokoso Beach®</p>
+      
 
-      <p>Kasokoso Beach®</p>
     </div>
+
+     
   );
 };
 

@@ -38,7 +38,10 @@ const ContactUs = () => {
         <Link to = "/send-message">
           <button className="contact-button">Leave a Message</button>
         </Link>  
-        <p></p>
+        <br></br>
+
+          <p>Kasokoso Beach®</p>
+          
       </div>
      </> 
     

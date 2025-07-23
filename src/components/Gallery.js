@@ -47,6 +47,10 @@ const Gallery = () => {
            </div>
         </div>
       ))}
+
+      <br></br>
+
+        <p>Kasokoso Beach®</p>
     </div>
   );
 };

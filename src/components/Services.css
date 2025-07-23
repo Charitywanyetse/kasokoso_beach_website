@@ -109,20 +109,44 @@
   gap: 15px;
 }
 
-.gallery-button,
-.book-button {
-  background-color: #6b3e26;
-  color: white;
+.gallery-button {
+  background-color: #f8f6f4;
+  color: #774936;
   border: none;
-  border: 2px solid rgb(10, 6, 6);
+  border: 2px solid #774936;
   padding: 12px 24px;
   font-size: 1rem;
-  border-radius: 8px;
+  border-radius: 15px;
+  height: 60px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.button-book-button {
+  background-color: #6b3e26;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;}
 
-.gallery-button:hover,
-.book-button:hover {
-  background-color: #8b5c3e;
+.gallery-button:hover{
+  background-color: #faf8f7;
 }
+
+.book-button:hover{
+   background-color: #6b3e26;
+}
+
+.service-hero {
+  background: url('../assets/1000026725.jpg') center/cover no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #000;
+}
+

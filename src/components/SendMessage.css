@@ -1,31 +1,40 @@
 .send-message-container {
   max-width: 600px;
   margin: auto;
-  padding: 2rem;
+  padding: 3rem;
   background: #f0f0f0;
   border-radius: 10px;
+  border: 1px solid #D9D9D9;
+
+  margin-top: 30px;
 }
 
-.send-message-form input,
-.send-message-form textarea {
+
+.send-message-form input {
   width: 100%;
   margin-bottom: 2rem;
-  height: 50px;
+  height: 30px;
   padding: 0.75rem;
-  border: 1px solid #837575;
-  border-radius: 5px;
-  background-color: gray;
-  color: #f0f0f0;
+  background-color: #D9D9D9;
+  color: #774936;
+}
+
+.send-message-form textarea{
+   width: 100%;
+  margin-bottom: 2rem;
+  height: 80px;
+  padding: 0.75rem;
+  background-color: #D9D9D9;
+  color: #774936;
 }
 
 .send-message-form button {
   padding: 0.75rem 1.5rem;
-  background: #7c4102;
+  background: #6a3b25;
   color: white;
-  border: 1px soild black;
-  border-radius: 5px;
   cursor: pointer;
   margin-left: 300px;
+  width: 200px;
 }
 .send-message-form p{
    margin-left: 300px;  

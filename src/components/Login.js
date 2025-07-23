@@ -22,7 +22,7 @@ const Login = () => {
     }
   };
 
-  // ✅ Define this to fix the error
+  //  Define this to fix the error
   const handleSignupRedirect = () => {
     navigate('/signup');
   };
@@ -39,7 +39,7 @@ const Login = () => {
       </form>
 
       <p className="signup-text">
-        Don’t have an account? <br />
+        Don't have an account? <br />
         <button className="signup-button" onClick={handleSignupRedirect}>
           SIGN UP
         </button>
