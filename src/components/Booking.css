@@ -1,6 +1,6 @@
 /* User_profile.css */
 
-.profile-container {
+/* .profile-container {
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
@@ -126,4 +126,96 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #aaa;
+} */
+
+
+/* Container & Header */
+.booking-container {
+  background-color: #f9fdff;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.booking-header {
+  background-color: #75412c;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 00px ;
+  margin-top: 20px;
+}
+
+/* Form */
+.booking-form {
+  margin: 30px auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0 20px;
+}
+
+.booking-form input {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #fffacb;
+  color: #432818;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid  #8c5a3c;
+}
+
+.booking-button {
+  background-color: #8c5a3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 150px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.p {
+    margin-bottom: 50px;
+}
+
+/* Footer */
+.booking-footer {
+  background-color: #75412c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  margin: 10px;
+}
+
+.home-button {
+  background-color: #fffacb;
+  color: #75412c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.p{
+    margin-bottom: 90px;
 }

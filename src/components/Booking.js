@@ -37,8 +37,8 @@ const Booking = () => {
 
   return (
     <div className="booking-container">
-      {/* <div className="booking-header">BOOK SERVICES</div> */}
-      <h1>BOOK SERVICES</h1>
+      <div className="booking-header">BOOK SERVICES</div>
+      {/* <h1>BOOK SERVICES</h1> */}
 
       <form className="booking-form" onSubmit={handleBooking}>
   

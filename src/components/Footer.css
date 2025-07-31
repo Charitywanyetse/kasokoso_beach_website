@@ -44,3 +44,11 @@
   justify-content: flex-end;
   align-items: center;
 }
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

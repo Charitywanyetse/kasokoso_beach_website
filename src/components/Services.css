@@ -28,7 +28,7 @@
 
 /* Navigation Arrows */
 .arrow {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #6b3e26;
   background: none;
   border: none;
@@ -109,7 +109,8 @@
   gap: 15px;
 }
 
-.gallery-button {
+.gallery-button,
+.book-button  {
   background-color: #f8f6f4;
   color: #774936;
   border: none;
@@ -121,22 +122,23 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.button-book-button {
+/* .button-book-button {
   background-color: #6b3e26;
   color: white;
   padding: 12px 24px;
   font-size: 1rem;
   border-radius: 25px;
   cursor: pointer;
-  transition: background-color 0.3s ease;}
+  transition: background-color 0.3s ease;} */
 
-.gallery-button:hover{
+.gallery-button:hover,
+.book-button:hover{
   background-color: #faf8f7;
 }
-
+/* 
 .book-button:hover{
    background-color: #6b3e26;
-}
+} */
 
 .service-hero {
   background: url('../assets/1000026725.jpg') center/cover no-repeat;
