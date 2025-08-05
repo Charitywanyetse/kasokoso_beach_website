@@ -89,3 +89,9 @@
 .p{
     margin-bottom: 90px;
 }
+
+@media (max-width: 768px) {
+  .Signup {
+    flex-direction: column;
+    padding: 1rem;
+  }}

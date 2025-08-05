@@ -30,13 +30,20 @@
 
 .send-message-form button {
   padding: 0.75rem 1.5rem;
-  background: #6a3b25;
+  background: #774936;
   color: white;
   cursor: pointer;
-  margin-left: 300px;
+  margin-left: 250px;
   width: 200px;
 }
 .send-message-form p{
    margin-left: 300px;  
 }
+
+@media (max-width: 768px) {
+  .SendMessage {
+    flex-direction: column;
+    padding: 1rem;
+  }}
+
 

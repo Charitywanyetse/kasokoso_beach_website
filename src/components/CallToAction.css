@@ -30,3 +30,9 @@
 .cta-btn:hover {
   background-color: #fffccc;
 }
+
+@media (max-width: 768px) {
+  .CallToAction {
+    flex-direction: column;
+    padding: 1rem;
+  }}

@@ -101,3 +101,9 @@
 .signup-button:hover {
   background-color: #fffccc;
 }
+
+@media (max-width: 768px) {
+  .login {
+    flex-direction: column;
+    padding: 1rem;
+  }}

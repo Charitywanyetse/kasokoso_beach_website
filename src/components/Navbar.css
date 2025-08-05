@@ -1,6 +1,6 @@
 /* Navbar.css */
 
-.navbar {
+/* .navbar {
   background-color: #7d4b33;
   display: flex;
   align-items: center;
@@ -11,15 +11,17 @@
 
 .logo-container img {
   
-  width: 100px;  /* Adjust width as needed */
-  height: 90px;
+  width: 200px; 
+  height: 100px;
+  margin-top: 4px;
+  
 
 }
 
 
 .nav-links {
   display: flex;
-  gap: 150px;
+  gap: 160px;
 }
 
 .nav-links li {
@@ -30,11 +32,11 @@
   color: white;
   text-decoration: none;
   font-weight: 3 rem;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .nav-links a:hover {
-  /* text-decoration: underline; */
+ 
   background-color: orangered;
   height: 60px;
 }
@@ -54,4 +56,70 @@
 
 .explore-button:hover {
   background-color: #5f3624;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }}
+ */
+
+
+
+
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #7d4b33;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #7d4b33;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 1rem 0;
+    border-top: 1px solid #444;
+  }
 }

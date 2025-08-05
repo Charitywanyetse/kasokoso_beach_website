@@ -34,3 +34,10 @@
   font-size: 1.6rem;
   margin-top: 30px;
 }
+
+
+@media (max-width: 768px) {
+  .Offers {
+    flex-direction: column;
+    padding: 1rem;
+  }}

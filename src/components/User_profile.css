@@ -130,3 +130,9 @@ footer {
   font-size: 14px;
   color: #7d4b33;
 }
+
+@media (max-width: 768px) {
+  .UserProfile {
+    flex-direction: column;
+    padding: 1rem;
+  }}

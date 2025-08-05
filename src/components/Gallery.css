@@ -58,3 +58,9 @@
   line-height: 1.5;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+    padding: 1rem;
+  }}
