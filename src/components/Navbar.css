@@ -1,23 +1,22 @@
 /* Navbar.css */
 
-/* .navbar {
+.navbar {
   background-color: #7d4b33;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
   color: white;
+  height: 45px;
+  gap: 226px;
 }
 
 .logo-container img {
-  
   width: 200px; 
-  height: 100px;
-  margin-top: 4px;
-  
-
+  height: 220px;
+  margin-top: 94px;
+  margin-bottom: 10px;
 }
-
 
 .nav-links {
   display: flex;
@@ -31,8 +30,9 @@
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 3 rem;
-  font-size: 18px;
+  font-weight: 2 rem;
+  font-size:17px;
+
 }
 
 .nav-links a:hover {
@@ -41,55 +41,31 @@
   height: 60px;
 }
 
-.explore-button {
-  margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: 500;
-  color: white;
-  background-color: #7d4b33;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.explore-button:hover {
-  background-color: #5f3624;
-}
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 1rem;
-  }}
- */
 
 
 
 
-  .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #7d4b33;
-  color: white;
-}
+
+
+
 
 .logo {
-  height: 50px;
+  height: 100px;
+  width: 200px;
+  margin-left: 30px;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 7rem;
+  font-size: 20px;
 }
 
-.nav-links li a {
+/* .nav-links li a {
   color: white;
   text-decoration: none;
-}
+} */
 
 .hamburger {
   display: none;
