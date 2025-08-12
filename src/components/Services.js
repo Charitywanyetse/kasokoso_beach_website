@@ -57,7 +57,7 @@ const Services = () => {
   };
 
   const goToBook = () => {
-    navigate('/booking'); // corrected route
+    navigate('/booking'); 
   };
 
   const currentService = services[current];

@@ -11,18 +11,16 @@ import ConferenceImg from '../assets/conference halls.jpg'
 const galleryItems = [
 
     { title: 'Grounds', image: groundsImg, description:
-       'Grounds for Hire: Beautiful outdoor spaces available for weddings, parties, and gatherings, perfect for making special moments memorable.' },
+       'Grounds for Hire: Beautiful outdoor spaces available for weddings, parties, and gatherings, perfect for making special moments memorable.' },
 
   { title: 'Restaurant', image: restaurantImg, description: 
-    'Restaurant: Enjoy delicious meals in a cozy atmosphere, offering a variety of dishes to satisfy every palate.' },
+    'Restaurant: Enjoy delicious meals in a cozy atmosphere, offering a variety of dishes to satisfy every palate.' },
 
        { title: 'Pools', image: poolImg, description:
-     'Swimming Pool Services: Relax and unwind with our clean, well-maintained swimming pools, available for leisure or private parties.' },
+     'Swimming Pool Services: Relax and unwind with our clean, well-maintained swimming pools, available for leisure or private parties.' },
     
   { title: 'conference', image: ConferenceImg, description:
-     'Conference Hall: A fully equipped space ideal for meetings, seminars, workshops, and corporate events.' },
-
-
+     'Conference Hall: A fully equipped space ideal for meetings, seminars, workshops, and corporate events.' },
 
 ];
 

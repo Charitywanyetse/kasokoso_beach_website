@@ -1,7 +1,7 @@
 import React from 'react';
-import './Contact.css'; // Optional: only if you are using CSS styles
-import locationImg from '../assets/location.png'; // Make sure the image exists in the correct path
-import {Link} from 'react-router-dom'
+import './Contact.css'; 
+import { Link } from 'react-router-dom';
+import locationImg from '../assets/location.png';
 import topBanner from '../assets/1000026719 (1).jpg';
 
 const ContactUs = () => {
@@ -24,7 +24,7 @@ const ContactUs = () => {
           <p>+256 111 222 555</p>
 
           <h3>Working Hours:</h3>
-          <p>Open Daily: 8:00 AM – 6:30 PM</p>
+          <p>Open Daily: 8:00 AM - 6:30 PM</p>
         </div>
 
         {/* Right side */}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './SendMessage.css'; // Optional: for styling
+import './SendMessage.css'; 
 
 const SendMessage = () => {
   const [name, setName] = useState('');
@@ -18,7 +18,7 @@ const SendMessage = () => {
 
     alert('Message sent successfully!');
 
-    // Clear form fields
+
     setName('');
     setPhone('');
     setEmail('');

@@ -22,7 +22,7 @@ const Login = () => {
     }
   };
 
-  //  Define this to fix the error
+
   const handleSignupRedirect = () => {
     navigate('/signup');
   };

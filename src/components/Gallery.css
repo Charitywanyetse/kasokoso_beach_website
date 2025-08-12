@@ -6,7 +6,7 @@
 }
 
 .gallery-banner {
-  background-image: url('../assets/Gallery.jpg'); /* Replace with actual banner */
+  background-image: url('../assets/Gallery.jpg');
   background-size: cover;
   background-position: center;
   height: 600px;

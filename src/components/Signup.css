@@ -1,5 +1,5 @@
 
-/* Container & Header */
+
 .register-container {
   background-color: #f9fdff;
   font-family: sans-serif;
@@ -19,7 +19,6 @@
   margin-top: 20px;
 }
 
-/* Form */
 .register-form {
   margin: 30px auto;
   max-width: 600px;
@@ -58,7 +57,7 @@
     margin-bottom: 50px;
 }
 
-/* Footer */
+
 .register-footer {
   background-color: #75412c;
   color: white;
