@@ -11,6 +11,7 @@
   text-shadow: 1px 1px 5px #000;
 }
 
+
 .about-section {
   display: flex;
    
@@ -70,3 +71,7 @@
     flex-direction: column;
     padding: 1rem;
   }}
+
+
+  
+

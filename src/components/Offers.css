@@ -36,8 +36,4 @@
 }
 
 
-@media (max-width: 768px) {
-  .Offers {
-    flex-direction: column;
-    padding: 1rem;
-  }}
+

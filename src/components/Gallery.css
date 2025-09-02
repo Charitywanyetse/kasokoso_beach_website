@@ -21,8 +21,8 @@
 
 .gallery-card-1 {
   max-width: 400px;
-  margin: 40px;
-  margin-left: 400px;
+  margin: 30px;
+  margin-left: 100px;
   padding: 30px;
   background-color: #fffccc;
   border-radius: 12px;
@@ -35,7 +35,7 @@
 .gallery-card-1 img {
   width: 500px;
   height: 400px;
-  max-width:360px;
+  max-width:350px;
   max-height: 300px;
   margin-left: 0px;
   margin-top: 0px;
@@ -46,15 +46,23 @@
 
 .gallery-card h2 {
   color: #4c2b1b;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   align-items: center;
   justify-content: center;
-  margin-left: 500px;
+  margin-left: 200px;
 }
 
+.overlay {
+  position: absolute; 
+  top: 0;         
+  left: 0;           
+  right: 0;          
+  bottom: 0;         
+  background-color: rgba(114, 108, 108, 0.4);}
+  
 .gallery-card-1 p {
-  color: #333;
-  font-size: 18px;
+  color: #0a0a0a;
+  font-size: 16px;
   line-height: 1.5;
   align-items: center;
 }
